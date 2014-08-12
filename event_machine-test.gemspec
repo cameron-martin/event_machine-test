@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = '0.0.1'
   spec.authors       = ["Cameron Martin"]
   spec.email         = ["cameronmartin123@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Easily test asynchronous eventmachine code.}
+  spec.description   = %q{Easily test asynchronous eventmachine code. Inspired by jasmine.}
+  spec.homepage      = "https://github.com/cameron-martin/event_machine-test"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
