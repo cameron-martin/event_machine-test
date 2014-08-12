@@ -2,7 +2,7 @@
 describe EventMachine::Test do
 
   include EventMachine::Test.new(1)
-  include RSpec::EM::FakeClock
+  #include RSpec::EM::FakeClock
 
   #before { clock.stub }
   #after { clock.reset }

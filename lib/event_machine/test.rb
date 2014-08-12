@@ -1,3 +1,5 @@
+require 'eventmachine'
+
 module EventMachine
   class Test < Module
 
