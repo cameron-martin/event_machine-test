@@ -45,10 +45,16 @@ end
 ```
 
 ## How it works
+
 1. Spins up eventmachine inside a block
 2. Sets a timer to throw a `TimeoutError`
 3. Runs a block, passing a done callback which throws a symbol
 4. Symbol is caught outside eventmachine reactor, and the block terminates (with no error).
+
+## TODO
+
+* Write better tests. I tried using rspec-eventmachine for controlling the clock, but it just froze
+* Write integration for rspec (in a separate gem), to avoid having an extra level of indentation for each code block.
 
 
 ## Contributing
