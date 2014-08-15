@@ -48,7 +48,7 @@ end
 
 1. Spins up eventmachine inside a block
 2. Sets a timer to throw a `TimeoutError`
-3. Runs a block, passing a done callback which throws a symbol
+3. Runs the block passed to `em_test`, passing a done callback which throws a symbol when called.
 4. Symbol is caught outside eventmachine reactor, and the block terminates (with no error).
 
 ## TODO
