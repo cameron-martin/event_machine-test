@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cameron-martin/event_machine-test.svg?branch=master)](https://travis-ci.org/cameron-martin/event_machine-test)
+
 # EventMachine::Test
 
 Small library for testing asynchronous eventmachine code. It is [inspired by jasmine][1].
