@@ -9,7 +9,7 @@ module EventMachine
       super() do
 
         define_method(:em_test) do |&block|
-          done_callback = -> { throw :stop }
+          done_callback = proc { throw :stop }
 
           # Calling EM.stop does not work, since it waits for the timer to finish first.
           catch(:stop) do
